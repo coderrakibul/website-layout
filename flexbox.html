@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I am the flexbox</title>
+    <style>
+      .center-box {
+        width: 300px;
+        height: 300px;
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #box-1 {
+        width: 100px;
+        height: 100px;
+        border: 2px solid green;
+      }
+      #box-2 {
+        width: 100px;
+        height: 100px;
+        border: 2px solid blue;
+      }
+      .container {
+        width: 300px;
+        height: 300px;
+        border: 2px solid red;
+        display: flex;
+        align-items: stretch;
+      }
+
+      .box-5 {
+        width: 100px;
+        border: 2px solid green;
+      }
+
+      .box-6 {
+        width: 100px;
+        border: 2px solid blue;
+        flex-grow: 1;
+      }
+      #first {
+        order: 2;
+      }
+      #second {
+        order: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-box">
+      <div id="box-1"><h3>First box</h3></div>
+      <div id="box-2"><h3>Second box</h3></div>
+    </div>
+    <br />
+    <div class="container">
+      <div id="first" class="box-5"><h3>Five</h3></div>
+      <div id="second" class="box-6"><h3>Six</h3></div>
+    </div>
+  </body>
+</html>

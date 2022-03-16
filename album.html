@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo album</title>
+    <style>
+      .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .photo-section h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      .photo-frame {
+        width: 300px;
+        height: 198px;
+        border: 2px solid orange;
+        border-radius: 6px;
+        position: relative;
+        margin-bottom: 40px;
+        overflow: hidden;
+      }
+      .photo-frame:hover .photo-details {
+        display: block;
+      }
+      .photo-frame:hover .photo {
+        transform: scale(1.5);
+        transition: transform 1s ease-in;
+      }
+      .photo img {
+        width: 100%;
+        border-radius: 5px;
+      }
+      .photo-details {
+        position: absolute;
+        top: 0;
+        padding: 0 10px;
+        display: none;
+        background-color: rgba(187, 106, 96, 0.6);
+        border-radius: 5px;
+      }
+      .photo-details h3 {
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        padding: 5px;
+      }
+      .photo-details p {
+        text-align: justify;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="photo-section">
+      <h1>Photo Album</h1>
+
+      <div class="photo-album">
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/tiger.jpg" alt="" />
+          </div>
+          <div class="photo-details">
+            <h3>Hi! I am Tiger</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam sint alias quae exercitationem atque ipsa distinctio
+              necessitatibus vel enim error voluptatibus quaerat repellendus
+              magnam porro quasi, a corrupti, ex eaque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
